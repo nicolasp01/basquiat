@@ -1,0 +1,12 @@
+.orig {
+    width: 250px;
+    height: 340px;    
+    background: transparent;
+}
+
+
+
+.orig img {
+    height: 150px;
+    width: 100%;
+}

@@ -1,0 +1,67 @@
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+}
+
+body{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+    background: black;
+    color: white;
+}
+
+nav img {
+    width: 150px;
+    height: 50px;
+    display: block;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-default {
+    background: black;
+    border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: white;
+  background-color: transparent;
+}
+
+.fa-bars {
+    color: white;
+}
+
+.caption p {
+    text-align: center;
+}
+
+.caption p, h4 {
+    color: white;
+}
+
+form {
+    max-width: 700px;
+    margin: auto;
+    color: white;
+}
+
+.orig {
+    width: 250px;
+    height: 340px;    
+    background: transparent;
+}
+
+
+
+.orig img {
+    height: 150px;
+    width: 100%;
+}

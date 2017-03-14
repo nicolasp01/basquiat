@@ -1,0 +1,116 @@
+@import url(carousel.css);
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+  text-transform: uppercase; }
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  background: #000;
+  color: #fff; }
+
+.logo {
+  width: 150px;
+  height: 50px;
+  display: block;
+  margin-left: 15px; }
+
+.navbar-default {
+  background: #000;
+  border: none; }
+
+.navbar-brand {
+  padding: 0; }
+
+.navbar-default .navbar-nav > li > a, .fa-bars, .navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff; }
+
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+@media (min-width: 767px) {
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out; }
+
+  .top-nav-collapse {
+    padding: 0; } }
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%; }
+  .carousel-caption .inside-carousel {
+    width: 800px;
+    position: absolute;
+    padding: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%); }
+    .carousel-caption .inside-carousel h3 {
+      font-size: 80px; }
+    .carousel-caption .inside-carousel p {
+      font-size: 25px; }
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  .carousel-caption {
+    margin-top: 20px; }
+    .carousel-caption .inside-carousel {
+      width: 600px; }
+      .carousel-caption .inside-carousel h3 {
+        font-size: 60px; }
+      .carousel-caption .inside-carousel p {
+        font-size: 20px; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .carousel-caption {
+    margin-top: 20px;
+    height: 200px; }
+    .carousel-caption .inside-carousel {
+      width: 600px; }
+      .carousel-caption .inside-carousel h3 {
+        font-size: 50px; }
+      .carousel-caption .inside-carousel p {
+        font-size: 18px; } }
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .carousel-caption {
+    margin-top: 20px;
+    height: 150px; }
+    .carousel-caption .inside-carousel {
+      width: 500px; }
+      .carousel-caption .inside-carousel h3 {
+        font-size: 40px; }
+      .carousel-caption .inside-carousel p {
+        font-size: 16px; } }
+@media screen and (max-width: 480px) {
+  .carousel-caption {
+    margin-top: 5px;
+    height: 120px; }
+    .carousel-caption .inside-carousel {
+      width: 400px; }
+      .carousel-caption .inside-carousel h3 {
+        font-size: 30px;
+        padding: 0;
+        margin: 0; }
+      .carousel-caption .inside-carousel p {
+        font-size: 16px;
+        padding: 0;
+        margin: 0; } }
+.formulario {
+  margin-top: 20px; }
+  .formulario form {
+    max-width: 700px;
+    margin: auto;
+    margin-top: 25px;
+    color: #fff; }
+    .formulario form textarea {
+      resize: none; }
+
+/*# sourceMappingURL=style.css.map */

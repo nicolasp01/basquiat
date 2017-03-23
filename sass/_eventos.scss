@@ -1,0 +1,30 @@
+#eventos {
+    h2 {
+        padding: 40px 0 15px;
+    }
+        .orig {
+            background: transparent;
+            img {
+                display: block;
+            }
+            .caption {
+                p {
+                  text-align: center;
+                  color: white;
+                }
+                h4 {
+                  text-align: center;
+                  color: white;
+                }
+            }
+        }
+}
+
+@media (min-width: 992px) {
+    
+    .contenedor5 {
+        height: 110px;
+        display: flex;
+        align-items: center;
+    }
+}
